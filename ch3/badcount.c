@@ -12,9 +12,12 @@ int main(int argc, char **argv)
     /* too many arguments */
     printf("%d\n", n, m);
     /* too few arguments */
-    printf("%d %d %d\n",n);
+    printf("%d %d %d\n", n);
     /* wrong kind of values */
     printf("%d %d\n", f, g);
+
+    /* wrong kind of values */
+    printf("%d %f \n", f, g);
     
     return EXIT_SUCCESS;
 }
