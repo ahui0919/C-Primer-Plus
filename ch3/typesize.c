@@ -1,6 +1,8 @@
 //* typesize.c -- prints out type sizes */
 #include <stdio.h>
-int main(void)
+#include <stdlib.h>
+
+int main(int argc, char **argv)
 {
     /* c99 provides a %zd specifier for sizes */
     printf("Type int has a size of %zd bytes.\n", sizeof(int));
@@ -12,5 +14,6 @@ int main(void)
            sizeof(double));
     printf("Type long double has a size of %zd bytes.\n",
            sizeof(long double));
-    return 0;
+           
+    return EXIT_SUCCESS;
 }
