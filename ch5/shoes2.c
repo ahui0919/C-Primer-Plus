@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 
     printf("Shoe size (men's)     foot length\n");
     shoe = 3.0;
-    
+
     /* Starting the while loop */
     while (shoe < 18.5)
     {
@@ -21,9 +21,9 @@ int main(int argc, char **argv)
         printf("%10.1f %15.2f inches\n", shoe, foot);
         shoe = shoe + 1.0;
         /* end of block */
-    }       
-    
+    }
+
     printf("If the shoe fits, wear it.\n");
-    
+
     return EXIT_SUCCESS;
 }
