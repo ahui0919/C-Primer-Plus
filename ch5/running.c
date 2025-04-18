@@ -1,4 +1,4 @@
-// running.c -- A usefil program for runners
+// running.c -- A useful program for runners
 #include <stdio.h>
 #include <stdlib.h>
 
