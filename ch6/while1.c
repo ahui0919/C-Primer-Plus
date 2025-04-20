@@ -13,6 +13,6 @@ int main(int argc, char **argv)
     }
 
     printf("That's all this program does\n");
-    
+
     return EXIT_SUCCESS;
 }
