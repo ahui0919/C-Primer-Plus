@@ -5,7 +5,7 @@
 int main(int argc, char **argv)
 {
     const int SECRET_CODE = 13;
-    int code_entered;
+    int code_entered = 0;
 
     printf("To enter the triskaidekaphobia therapy club,\n");
     printf("please enter the secret code number: ");
