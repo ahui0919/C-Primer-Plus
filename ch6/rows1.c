@@ -1,4 +1,4 @@
-/* rowsl.c -- uses nested loops */
+/* rows1.c -- uses nested loops */
 #include <stdio.h>
 #include <stdlib.h>
 
