@@ -4,12 +4,12 @@
 
 #define NAME "GIGATHINK, INC."
 #define ADDRESS "101 Megabuck Plaza"
-#define PLACE "Megapolis, CA 94904"
-#define WIDTH 40
+#define PLACE   "Megapolis, CA 94904"
+#define WIDTH   40
 
-/* prototype the fucntion */
 void starbar(void);
 
+/* prototype the function */
 int main(int argc, char **argv)
 {
     starbar();
