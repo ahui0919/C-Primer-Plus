@@ -36,3 +36,15 @@ void to_binary(unsigned long n)
 
     return;
 }
+
+// n=5
+// r=1
+// 1level
+
+// n=2
+// r=0
+// 2level
+
+// n=1
+// r=1
+// 3level
