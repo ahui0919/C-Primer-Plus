@@ -2,12 +2,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void factor();
 long fact(int n);
 long rfact(int n);
 
 int main(void)
 {
-    int num;
+    factor();
+    
+    return EXIT_SUCCESS;
+}
+
+void factor()
+{
+   int num;
 
     printf("This program calculates factorials.\n");;
     printf("Enter a value in the range 0-12 (q to quit):\n");
@@ -26,8 +34,6 @@ int main(void)
     }
 
     printf("Bye.\n");
-    
-    return EXIT_SUCCESS;
 }
 
 // loop-based function
