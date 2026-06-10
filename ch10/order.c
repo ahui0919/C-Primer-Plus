@@ -1,0 +1,22 @@
+/* order.c -- precedence in pointer operations  */
+#include <stdio.h>
+#include <stdlib.h>
+
+int data[2] = {100, 200};
+int moredata[2] = {300, 400};
+
+int main(int argc, char **argv)
+{
+    int *p1;
+    int *p2;
+    int *p3;
+
+    p1 = p2 = data;
+    p3 = moredata;
+
+    printf("    *p1 = %d,   *p2 = %d,   *p3 = %d\n", *p1, *p2, *p3);
+    printf("*p1++ = %d, *p2++ = %d, (*p3)++ = %d\n", *p1++, *++p2, (*p3)++);
+    printf("    *p1 = %d,   *p2 = %d,   *p3 = %d\n", *p1, *p2, *p3);
+
+    return EXIT_SUCCESS;
+}
